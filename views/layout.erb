@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Traditional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title> <%= @title || "Untitled" %> </title> 
+	<link rel="stylesheet" href="/stylesheet.css" type="text/css" media="screen" charset="utf-8">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/javascript.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="nav" style="float:left; margin-left:5em;">
+		<a href="/show">Download</a>
+	</div>
+	<div class="wrapper">
+		<div id="header">
+			<h1>Trilyun</h1>
+		</div>
+
+		<div id="content">
+			<%= yield %>
+		</div>
+
+		<div id="footer">	
+			©  2010 Mark Sands
+		</div>
+	</div>
+</body>
+</html>
