@@ -1,3 +1,5 @@
+Click to download <br />
+<br />
 <% for item in @csvs %>
-	<p><%= link_to "http://localhost:9393/files/#{item[:filename]}"%>
+	<p><%= link_to "http://localhost:9393/files/#{item[:filename]}", item[:filename].gsub!(/\.csv/, '') %>
 <% end %>

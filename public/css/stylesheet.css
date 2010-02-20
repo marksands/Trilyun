@@ -1,0 +1,87 @@
+@import url("reset.css");
+
+body {
+	margin: 0px auto;
+	text-align: center;
+	font: 16px/18px helvetica;
+}
+
+.wrapper {
+  width: 50em;
+  margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header {
+	background: url('../images/logo.png') no-repeat;
+  margin: 2em 0;
+	margin-left: 18em;
+	height: 90px;
+}
+
+#header h1 {
+	display: none;
+  font-family: "Monaco", sans-serif;
+  font-size: 3em;
+  font-weight: lighter;
+}
+
+#content {
+	margin: 0 auto;
+	width: 400px;
+	height: 12	0px;
+}
+
+#footer { 
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 400px;
+	font: 10px helvetica;
+}
+
+input[type="text"] {
+	-webkit-appearance: textfield;	
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+  margin-top: .3em;
+  margin-bottom: 1.4em;
+	background-color: rgb(254, 254, 254);
+	border: 2px solid rgb(215, 214, 213);
+	padding: 0.5em;
+	font: 18px helvetica;
+	color: rgb(153, 153, 153);
+}
+
+input.focused {
+	-webkit-appearance: textfield;	
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+  margin-top: .3em;
+  margin-bottom: 1.4em;
+	background-color: rgb(254, 254, 254);
+	border: 2px solid rgb(215, 214, 213);
+	padding: 0.5em;
+	font: 18px helvetica;
+	color: rgb(55, 55, 55);
+}
+
+
+input[type="submit"] {
+  cursor: pointer;
+	background-color: rgb(253, 253, 253);
+  color: rgb(153, 153, 153);
+	width: 156px;
+  height: 32px;
+	font: 18px helvetica;
+	-moz-border-radius: 9px 3px 9px 3px;
+	-webkit-border-radius: 3px;
+	-webkit-border-top-left-radius: 9px;
+	-webkit-border-top-right-radius: 9px;
+	-webkit-border-bottom-left-radius: 9px;
+	-webkit-border-bottom-right-radius: 9px;
+}
